@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Nom!</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experiences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Nom!</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon open" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links open">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experiences</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div id="profile">
+            <div class="section__pic-container">
+                <img src="./assets/profile-pic-modified.png" alt="Noumi Profile Picture" class="profile-pict">
+            </div>
+            <div class="section__text">
+                <p class="section__text_p1">Hello! I'm</p>
+                <h1 class="title">Noumi</h1>
+                <p class="nama-panjang">Noumisyifa Nabila Nareswai</p>
+                <p class="section__text_p2">Teknik Informatika - ITB</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+                </div>
+                <div id="socials-container">
+                    <img src="./assets/linkedin-brands-solid.png" alt="Linkedin Profile" class="icon" onclick="location.href='https://linkedin.com/noumisyifa-nareswari/'"/>
+                    <img src="./assets/square-github-brands-solid.png" alt="Linkedin Profile" class="icon" onclick="location.href='https://github.com/numshv/'"/>
+                </div>
+            </div>
+        </div>
+        <img class="down-arrow" src="assets/arrow-down-solid.png" alt="Down arrow" onclick="location.href='./#about'">
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Who Am I?</p>
+        <h1 class="title">About Nom</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img class="image-about" src="./assets/minat.jpg" alt="Minat">
+                <img src="./assets/hobi.jpg" alt="Hobi" class="image-about">
+            </div>
+            <div class="about-details-container">
+                <div class="about-details-inside-container">
+                    <div class="about-containers">
+                        <h3>Minat</h3>
+                        <p>Gue punya minat kgk ya cok</p>
+                    </div>
+                    <div class="details-container">
+                        <h3>Hobi</h3>
+                        <p>Gue punya hobi kgk ya cok</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Lorem ipsum</p>
+                </div>
+            </div>
+        </div>
+        <img class="down-arrow" src="assets/arrow-down-solid.png" alt="Down arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <h1 class="title">Experiences</h1>
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Programming Languages</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets//square-check-solid.png" alt="Skill icon" class="icon"/>
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Entry level</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets//square-check-solid.png" alt="Skill icon" class="icon"/>
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Entry level</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets//square-check-solid.png" alt="Skill icon" class="icon"/>
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Entry level</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets//square-check-solid.png" alt="Skill icon" class="icon"/>
+                        <div>
+                            <h3>Python</h3>
+                            <p>Entry level</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets//square-check-solid.png" alt="Skill icon" class="icon"/>
+                        <div>
+                            <h3>Javascript</h3>
+                            <p>entry level</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets//square-check-solid.png" alt="Skill icon" class="icon"/>
+                        <div>
+                            <h3>C++</h3>
+                            <p>Entry level</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets//square-check-solid.png" alt="Skill icon" class="icon"/>
+                        <div>
+                            <h3>React</h3>
+                            <p>Entry level</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets//square-check-solid.png" alt="Skill icon" class="icon"/>
+                        <div>
+                            <h3>Haskell</h3>
+                            <p>Entry level</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets//square-check-solid.png" alt="Skill icon" class="icon"/>
+                        <div>
+                            <h3>Typescript</h3>
+                            <p>Entry level</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Projects</h2>
+                <div class="article-container">
+                    <article class="project">
+                        <h3>Agrishop</h3>
+                        <img class="agrishop" src="./assets/agrishop.png" alt="Agrishop">
+                        <p>Proyek pemenuhan tugas mata kuliah Pengantar Rekayasa Desain pada semester satu. Merupakan e-commerce khusus jual beli produk pangan.</p>
+                    </article>
+                    <article class="project">
+                        <h3>O.W.C.A Game</h3>
+                        <img class="owca" src="./assets/owca.png" alt="OWCA game">
+                        <p>Proyek pemenuhan tugas mata kuliah Dasar Pemrograman pada semester dua. Game turn-based RPG dengan yang dimainkan di terminal </p>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <img class="down-arrow" src="assets/arrow-down-solid.png" alt="Down arrow" onclick="location.href='./#contact'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me!</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/envelope-solid.png" alt="Email icon" class="icon contact-icon">
+                <p><a href="mailto:noumisyifa@gmail.com">noumisyifa@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin-brands-solid.png" alt="Linkedin icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/noumisyifa-nareswari">Noumisyifa Nareswari</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/square-instagram-brands-solid.png" alt="Instagram icon" class="icon contact-icon">
+                <p><a href="instagram.com/numshv">@numshv</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/square-x-twitter-brands-solid.png" alt="Twitter icon" class="icon contact-icon">
+                <p><a href="twitter.com/numshv">@numshv</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experiences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
